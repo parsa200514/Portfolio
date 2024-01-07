@@ -5,6 +5,9 @@ Welcome to my GitHub repository, showcasing a curated collection of my projects 
 
 # Project 1: Weather App (Django)
 
+## Current Deployment:
+The project is currently running on [https://pigeon.liara.run/](https://pigeon.liara.run/).
+
 ## Project Overview:
 This Django-based Weather App allows users to check the weather forecast for a specified location. Users can input a location, and the app fetches real-time weather data using the ipinfo.io API to determine the location and the Tomorrow.io API for weather information.
 
