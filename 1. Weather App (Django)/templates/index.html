@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('https://images.unsplash.com/photo-1601722505649-d119deda842b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .container {
+            text-align: center;
+            width: 300px;
+            height: 18vh;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+        .list-values {
+            text-align: left;
+            color: #f4f4f4;
+        }
+
+
+        .input-form {
+            margin-top: 20px;
+        }
+
+        #locationInput {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #result {
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather App</h1>
+        <form class="input-form" method="post">
+            {% csrf_token %}
+            {{form.location}}
+            <button type="submit">Go</button>
+        </form>
+
+    </div>
+    <div>
+        {% if weather != "N/A" and weather != "Something went Wrong! please retry." and weather != "Turn on your VPN." %}
+        <ul>
+            {% for day in weather %}
+            <li class="list-values"><h3>{{ day }}</h3></li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <h3>
+            {{weather}}
+        </h3>
+        {% endif %}
+    </div>
+
+ 
+</body>
+</html>
