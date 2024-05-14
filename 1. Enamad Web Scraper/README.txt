@@ -8,20 +8,16 @@
 ------------------------------------------------------------------------------------
 ## Installation
 
-1. Clone the repository to your local machine:
+Install the required dependencies:
 
-git clone https://github.com/your_username/enamad-web-scraper.git
-
-2. Install the required dependencies:
-
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ------------------------------------------------------------------------------------
 ## Usage
 
 1. Run the `scraper.py` script:
 
-python scraper.py
+    python scraper.py
 
 2. The script will scrape data from multiple pages of Enamad's website and write it
    to an Excel file named `data.xlsx`.
@@ -32,8 +28,3 @@ python scraper.py
 - `requests`: For sending HTTP requests to the Enamad website.
 - `BeautifulSoup`: For parsing the HTML content of the website.
 - `xlsxwriter`: For creating and writing data to Excel files.
-
-------------------------------------------------------------------------------------
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
