@@ -11,8 +11,8 @@ responses = []  # List to store HTTP responses
 def get_response():
     global responses
 
-    # Loop to send GET requests to multiple pages
-    for i in range(2, 12):
+    # Loop to send GET requests to multiple pages (in Enamad site, page 2 = page 1) 
+    for i in range(2, 6668):
         # Construct the URL for the page
         url = f'https://www.enamad.ir/DomainListForMIMT/Index/{i}'
 
@@ -34,8 +34,8 @@ def scraper():
     # Initialize index for companies
     company_index = 1
 
-    # Loop through pages 2 to 11
-    for i in range(0, 10):
+    # Loop through pages
+    for i in range(0, 6666):
         print(f"Let's go to page {i + 1}\n")
 
         # Wait until the response for the current page is available
