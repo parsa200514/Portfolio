@@ -1,11 +1,43 @@
 # Portfolio
 👋Welcome to my GitHub repository, showcasing a curated collection of my projects as a seasoned Backend Django Developer and Software Engineer. This repository serves as an interactive portfolio, allowing companies to explore my skills, expertise, and the diverse range of projects I've undertaken. Explore away! 🚀
 
-### ⚠️Do not forget to use a VPN for testing projects in Iran.🌐
+### ⚠️Do not forget to use a VPN for testing some projects in Iran.🌐
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 1: Enamad Web Scraper
+# Project 1: Dide Pardaz Saba Inventory Management
+
+## Project Overview
+
+This project, designed specifically for Dide Pardaz Saba, involves the development of a device management system. The system allows the storage and management of mobile device information in the company's inventory. It provides an interface for the company manager to access and handle the data, facilitating various export functionalities based on specific criteria.
+
+## Skills and Technologies Used
+
+- **Django Framework**: Efficient and scalable web development.
+- **Python Programming**: Backend logic and functionality implementation.
+- **HTML & CSS**: Frontend design and layout.
+- **Model-View-Template (MVT) Architecture**: Organizing the project structure.
+- **ORM (Object-Relational Mapping)**: Database interactions.
+- **Forms and Validations**: Handling user input and ensuring data integrity.
+- **JSON Response Handling**: Exporting data in a machine-readable format.
+- **Exception Handling Strategies**: Managing errors and exceptions gracefully.
+- **Testing and Debugging Proficiency**: Ensuring reliability and correctness of the application.
+
+## Application in Companies
+
+This device management system is beneficial for businesses that need to efficiently manage their inventory of devices. It assists in keeping track of device details, generating reports based on different criteria, and facilitating decision-making processes regarding device allocation and inventory control.
+
+
+## Contributors:
+- [MohammadParsa Khosravi]
+
+## More Information:
+For detailed information on the algorithm, data structure, and implementation, refer to the code files associated with this project. Each file contains specific details about the functionality and logic.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+# Project 2: Enamad Web Scraper
 
 ## Project Overview:
 This project involves the development of a web scraper for [enamad.ir](https://www.enamad.ir/DomainListForMIMT). The scraper fetches data from multiple pages of the Enamad website, extracts company information and star ratings, and stores it in an Excel file.
@@ -33,7 +65,7 @@ For detailed information on the algorithm, data structure, and implementation, r
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 2: Weather App (Django)
+# Project 3: Weather Web App
 
 ## Current Deployment:
 The project is currently running on [https://pigeon.liara.run/](https://pigeon.liara.run/).
@@ -63,7 +95,7 @@ For detailed information on the code structure, HTML templates, and view logic, 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 3: Library Management System
+# Project 4: Library Management System
 
 ## Project Overview:
 This project involves the development of a comprehensive Library Management System that includes functionality for different panels, such as Admin (Book Clerk), Student, and a login/signup system.
@@ -94,7 +126,7 @@ For detailed information on the algorithm, data structure, and implementation, r
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 4: Shopping List Analyzer and Recommnder System
+# Project 5: Recommnder and Analyzer System for Shopping List
 
 ## Project Overview:
 This project involves the analysis of a dataset containing shopping lists and provides product recommendations based on popularity and user preferences.
@@ -121,7 +153,7 @@ For detailed information on the algorithm, data structure, and implementation, r
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 5: AutoLogin UT e-learn
+# Project 6: AutoLogin UT e-learn
 
 ## Project Overview:
 This project involves using Selenium WebDriver for web automation, specifically to log into the "https://elearn4.ut.ac.ir" website (University of Tehran e-learn).
@@ -150,7 +182,7 @@ For detailed information on the algorithm, data structure, and implementation, r
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 6: Anime-Style Image Diffusion Generator
+# Project 7: AI Image Diffusion Generator
 
 ## Project Overview:
 This project showcases the use of a pre-trained image diffusion model for generating anime-style images based on textual prompts.
@@ -178,7 +210,7 @@ For detailed information on the algorithm, data structure, and implementation, r
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 7: Persian Pantomime Android Game
+# Project 8: Persian Pantomime Android Game
 
 ## Project Overview:
 This Unity 2D game project offers a unique and culturally rich experience by blending elements of Persian pantomime with Android gaming. The game showcases technical proficiency in game development, featuring intricate game logic, responsive UI/UX design, and optimized performance for Android devices.
@@ -207,7 +239,7 @@ For detailed information on the code structure, C# scripts, database integration
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 8: Unity 2D C# Game - Animated Ninja Adventure
+# Project 9: Unity 2D C# Game - Animated Ninja Adventure
 
 ## Project Overview:
 This Unity 2D C# game project presents an animated ninja character in a dynamic and engaging environment, drawing inspiration from classic Sonic 2D games. The successful execution of this project demonstrates a comprehensive skill set in game development, covering programming, animation, sound design, enemy AI, map design, and overall game design.
@@ -234,7 +266,7 @@ For detailed information on the code structure, C# scripts, character animation,
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-# Project 9: Simple Graphical Calculator (Java)
+# Project 10: Simple Graphical Calculator
 
 ## Project Overview:
 This Java project presents a simple graphical calculator, providing users with basic arithmetic functionality through a user-friendly graphical interface. The calculator is designed to perform addition, subtraction, multiplication, and division operations.
