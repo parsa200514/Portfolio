@@ -1,9 +1,9 @@
 # Portfolio
 👋Welcome to my GitHub repository, showcasing a curated collection of my projects as a seasoned Backend Django Developer and Software Engineer. This repository serves as an interactive portfolio, allowing companies to explore my skills, expertise, and the diverse range of projects I've undertaken. Explore away! 🚀
 
-### ⚠️First of all, don't forget to check out [my new website](kubilit.com), fully developed by myself, designed to help users quickly and easily find the cheapest flight tickets on the market. I'm committed to continuously improving the platform, with new features coming soon to enhance the experience.🌐
+### ⚠️First of all, don't forget to check out [my new website](https://www.kubilit.com), fully developed by myself, designed to help users quickly and easily find the cheapest flight tickets on the market. I'm committed to continuously improving the platform, with new features coming soon to enhance the experience.🌐
 
-## [kubilit.com](kubilit.com)
+## [kubilit.com](https://www.kubilit.com)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
